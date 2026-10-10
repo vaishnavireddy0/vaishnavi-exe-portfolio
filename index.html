@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080812">
+  <meta name="description" content="Vaishnavi's developer portfolio — Python, Java, C++, web development, and creative projects.">
+  <title>VAISHNAVI.EXE | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">VAISHNAVI<span>.EXE</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <span class="system-status">
+      <span class="status-dot"></span> SYSTEM ONLINE
+    </span>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">PORTFOLIO / 2026</p>
+
+        <p class="terminal-line">
+          <span class="terminal-symbol">&gt;</span>
+          Hello, world! I'm
+        </p>
+
+        <h1>VAISHNAVI<span class="accent">.</span><br>
+          <span class="outline-text">EXE</span>
+        </h1>
+
+        <h2 class="hero-subtitle">
+          Computer Science &amp; Business Systems Student
+        </h2>
+
+        <p class="hero-description">
+          Exploring code, building projects, and turning ideas into
+          digital experiences. Always learning. Always building.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore Projects ↗</a>
+          <a class="btn btn-secondary"
+            href="mailto:vaishureddy1124@gmail.com">Contact Me</a>
+        </div>
+
+        <div class="hero-meta">
+          <span><span class="status-dot"></span> Open to learning</span>
+          <span>Based in India</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Developer terminal illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="code-window">
+          <div class="window-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>vaishnavi.py</span>
+            <span>●</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="line-number">01</span>
+              <span class="purple">class</span>
+              <span class="cyan">Developer</span>:</p>
+            <p><span class="line-number">02</span>
+              &nbsp;&nbsp;name = <span class="green">"Vaishnavi"</span></p>
+            <p><span class="line-number">03</span>
+              &nbsp;&nbsp;field = <span class="green">"CSBS"</span></p>
+            <p><span class="line-number">04</span>
+              &nbsp;&nbsp;skills = [</p>
+            <p><span class="line-number">05</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">"Python"</span>,</p>
+            <p><span class="line-number">06</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">"Java"</span>,</p>
+            <p><span class="line-number">07</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">"Web Dev"</span>]</p>
+            <p><span class="line-number">08</span>
+              &nbsp;&nbsp;<span class="purple">def</span>
+              <span class="cyan">build</span>(self):</p>
+            <p><span class="line-number">09</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">return</span>
+              <span class="green">"Keep creating!"</span><span class="cursor">▋</span></p>
+          </div>
+          <div class="window-footer">
+            <span>UTF-8</span><span>PYTHON</span><span>READY_</span>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-top">{"</>"} WEB DEV</div>
+        <div class="floating-tag tag-bottom">✳ KEEP BUILDING</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Technologies">
+      <div class="ticker-track">
+        <span>PYTHON ✳</span><span>JAVA ✳</span><span>C++ ✳</span>
+        <span>HTML &amp; CSS ✳</span><span>SQL ✳</span>
+        <span>PROBLEM SOLVING ✳</span>
+        <span>PYTHON ✳</span><span>JAVA ✳</span><span>C++ ✳</span>
+        <span>HTML &amp; CSS ✳</span><span>SQL ✳</span>
+        <span>PROBLEM SOLVING ✳</span>
+      </div>
+    </div>
+
+    <section class="section content-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / WHO AM I?</p>
+        <h2>Behind the <span class="accent">Code.</span></h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-card reveal">
+          <span class="card-index">PROFILE_001</span>
+          <h3>Curious mind.<br>Builder's mindset.</h3>
+          <p>
+            I'm Vaishnavi, a B.Tech student in Computer Science and
+            Business Systems at B. V. Raju Institute of Technology.
+            I'm interested in programming, web development, and
+            creating useful projects while continuously improving my skills.
+          </p>
+          <p class="muted">
+            My approach: learn the fundamentals, build something,
+            understand what went wrong, and improve.
+          </p>
+        </div>
+
+        <div class="info-stack reveal">
+          <div class="info-card">
+            <span class="info-icon">⌘</span>
+            <div><span class="info-label">EDUCATION</span>
+              <h4>B.Tech — CSBS</h4>
+              <p>B. V. Raju Institute of Technology</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">⌁</span>
+            <div><span class="info-label">FOCUS</span>
+              <h4>Programming &amp; Web Development</h4>
+              <p>Learning through practical projects</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">↗</span>
+            <div><span class="info-label">NEXT OBJECTIVE</span>
+              <h4>Build. Learn. Improve.</h4>
+              <p>Growing one project at a time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / TECH ARSENAL</p>
+        <h2>Tools of the <span class="accent">Trade.</span></h2>
+        <p class="section-description">
+          Technologies I've worked with and am developing my skills in.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-number">01</span>
+          <span class="skill-symbol">Py</span>
+          <h3>Python</h3>
+          <p>Programming &amp; project development</p>
+          <div class="skill-bar"><span style="--level:75%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">02</span>
+          <span class="skill-symbol">Ja</span>
+          <h3>Java</h3>
+          <p>Programming fundamentals</p>
+          <div class="skill-bar"><span style="--level:65%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">03</span>
+          <span class="skill-symbol">C++</span>
+          <h3>C / C++</h3>
+          <p>Programming &amp; problem solving</p>
+          <div class="skill-bar"><span style="--level:65%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">04</span>
+          <span class="skill-symbol">&lt;/&gt;</span>
+          <h3>HTML &amp; CSS</h3>
+          <p>Web page structure and styling</p>
+          <div class="skill-bar"><span style="--level:75%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">05</span>
+          <span class="skill-symbol">SQL</span>
+          <h3>SQL &amp; Databases</h3>
+          <p>SQL, MySQL and Oracle</p>
+          <div class="skill-bar"><span style="--level:65%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">06</span>
+          <span class="skill-symbol">JS</span>
+          <h3>JavaScript</h3>
+          <p>Building interactive web experiences</p>
+          <div class="skill-bar"><span style="--level:40%"></span></div>
+        </article>
+      </div>
+      <p class="note reveal">
+        Skill bars are visual placeholders, not test scores. Update them
+        to reflect your actual comfort level.
+      </p>
+    </section>
+
+    <section class="section content-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Things I've <span class="accent">Built.</span></h2>
+        <p class="section-description">
+          A growing collection of projects and experiments.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-visual visual-one">
+            <span class="project-visual-icon">◈</span>
+            <span class="project-code">PROJECT_001</span>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-type">PYTHON</span>
+              <span class="project-status">PERSONAL PROJECT</span>
+            </div>
+            <h3>Dynamic Equity Engine</h3>
+            <p>
+              A team contribution analysis project designed to examine
+              individual participation and identify uneven contributions.
+            </p>
+            <div class="tag-list"><span>Python</span><span>Data Analysis</span></div>
+            <a class="project-link"
+              href="https://github.com/vaishnavireddy0/dynamic-equity-engine"
+              target="_blank" rel="noopener noreferrer">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-two">
+            <span class="project-visual-icon">⌘</span>
+            <span class="project-code">PROJECT_002</span>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-type">ANALYSIS</span>
+              <span class="project-status">PERSONAL PROJECT</span>
+            </div>
+            <h3>Customer Behaviour Analysis</h3>
+            <p>
+              A project focused on exploring customer behaviour and
+              discovering useful patterns in data.
+            </p>
+            <div class="tag-list"><span>Data Analysis</span><span>Research</span></div>
+            <a class="project-link"
+              href="https://github.com/vaishnavireddy0/customer-behaviour-analysis"
+              target="_blank" rel="noopener noreferrer">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-placeholder reveal">
+          <div class="project-visual visual-three">
+            <span class="project-visual-icon">＋</span>
+            <span class="project-code">PROJECT_003</span>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-type">NEXT BUILD</span>
+              <span class="project-status">IN PROGRESS</span>
+            </div>
+            <h3>Your Next Project</h3>
+            <p>
+              Your next idea goes here. Replace this card when you've
+              built another project you're ready to share.
+            </p>
+            <div class="tag-list"><span>Keep Learning</span><span>Keep Building</span></div>
+            <a class="project-link" href="#contact">
+              Let's Connect <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">04 / ESTABLISH CONNECTION</p>
+        <h2>Have an idea?<br><span class="accent">Let's connect.</span></h2>
+        <p>
+          Interested in my work, have a project idea, or want to connect?
+          Send me a message.
+        </p>
+        <a class="btn btn-primary"
+          href="mailto:vaishureddy1124@gmail.com">Send an Email ↗</a>
+
+        <div class="social-links">
+          <a href="https://github.com/vaishnavireddy0"
+            target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/vaishnavi-karra-066155419"
+            target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:vaishureddy1124@gmail.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">VAISHNAVI<span>.EXE</span></a>
+    <p>Designed with curiosity. Built with code.</p>
+    <p class="footer-copy">© <span id="year"></span> VAISHNAVI.EXE</p>
+  </footer>
+
+</body>
+</html>
